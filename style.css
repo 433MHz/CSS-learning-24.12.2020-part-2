@@ -1,0 +1,47 @@
+body
+{
+	background-image: url("img/tlo.png");
+	font-family: 'Work Sans', sans-serif;
+}
+
+
+#container
+{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	width: 300px;
+	padding: 50px;
+	background-color: #f0f5ff;
+	font-size: 30px;
+	color: #696969;
+	text-align: left;
+	font-weight: bold;
+	-webkit-box-shadow: 0px 0px 16px 11px rgba(240,245,255,1);
+	-moz-box-shadow: 0px 0px 16px 11px rgba(240,245,255,1);
+	box-shadow: 0px 0px 16px 11px rgba(240,245,255,1);
+}
+
+input[type=text],
+input[type=password],
+input[type=submit]
+{
+	width: 300px;
+	height: 40px;
+	background-color: #d1d1d1;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	border: 2px solid #949494;
+	font-size: 20px;
+	box-sizing: border-box;
+}
+
+input[type=submit]
+{
+	border: none;
+	background-color: #08a117;
+	margin-top: 40px;
+	height: 50px;
+	color: white;
+	font-size: 30px;
+}
